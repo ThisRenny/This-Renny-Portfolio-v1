@@ -1,0 +1,20 @@
+Assets:
+in this folder you can put images icons etc for the project
+
+components:
+in this folder you put the components of the aplication divided in the name of her view
+
+docs:
+in this folder you put the guide documents
+
+helpers:
+reusables script or components
+
+layouts:
+in this folder you put reusable layout components like sidebar footers or headers
+
+mixins:
+for vue mixins
+
+plugins:
+this is for third party vue things
