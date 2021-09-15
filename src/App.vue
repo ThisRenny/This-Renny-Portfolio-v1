@@ -1,25 +1,24 @@
-<template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 in CodeSandbox!" />
+<template style="">
+  <Profile />
 </template>
 
 <script>
-import HelloWorldVue from "./components/HelloWorld.vue";
+import Profile from "./views/Profile";
+
 export default {
-  name: "App",
   components: {
-    HelloWorld: HelloWorldVue,
-  },
-};
+    Profile,
+  }
+}
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  background: rgb(30,30,40);
+  background: linear-gradient(200deg, rgba(30,30,40,1) 0%, rgba(50,50,70,1) 100%);
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
 }
 </style>
